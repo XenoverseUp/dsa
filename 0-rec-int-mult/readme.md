@@ -2,7 +2,8 @@
 
 **Input:** Two n-digit positive integers `x` and `y`.
 **Output:** The product `x · y`.
-**Assumption:** `n` is a power of 2.
+
+For more information take a look at _Algorithms Illuminated Part 1, 1.3.2_.
 
 ---
 
@@ -20,7 +21,4 @@
      - `bc := b · c`
      - `bd := b · d`
   4. Compute the product using the grade-school addition and return the result:
-
-  \[
-  10^n \cdot ac + 10^{n/2} \cdot (ad + bc) + bd
-  \]
+     10^n · ac + 10^(n/2) · (ad + bc) + bd
